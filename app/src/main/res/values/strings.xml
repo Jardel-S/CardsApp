@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Cards</string>
+    <string name="answer_button_text">Check answer</string>
+    <string name="btn_help">Help</string>
+    <string name="btn_hard">HARD</string>
+    <string name="btn_doubt">DOUBT</string>
+    <string name="btn_easy">Easy</string>
+    <string name="subtitle_text">Tap to study</string>
+    <string name="info_text_view_message">Number of remaining cards</string>
+    <string name="due_cards_format">%d cards left</string>
+    <string name="expand" translatable="false">EXPAND</string>
+    <string name="easiness_format">Easiness: %.2f</string>
+    <string name="repetitions_format">Repetitions: %s</string>
+    <string name="interval_format">Interval: %s</string>
+    <string name="next_practice_date_format">Next Practice date: %s</string>
+    <string name="no_more_cards_toast_message">No more cards to present</string>
+    <string name="review_button">REVIEW CARDS</string>
+    <string name="accept_card_edit_button_title">ACCEPT</string>
+    <string name="cancel_card_edit_button_title">CANCEL</string>
+    <string name="new_card_fab_description"></string>
+    <string name="added_card">Card added</string>
+    <string name="logout_menu_title">Logout</string>
+    <string name="settings_menu_title">Settings</string>
+    <string name="card_question_hint">Write the question text</string>
+    <string name="deck_name_hint">Write the deck name</string>
+    <string name="card_answer_hint">Write the answer text</string>
+    <string name="decks_nav_menu_title">Decks</string>
+    <string name="question_label">Question</string>
+    <string name="answer_label">Answer</string>
+    <string name="study_nav_menu_title">Review Cards</string>
+    <string name="statistics_nav_menu_title">Statistics</string>
+    <string name="app_version">Version information</string>
+    <string name="deck_name">Name</string>
+    <string name="add_deck_title">New Deck</string>
+    <string name="version_content" translatable="false">25.01.2022-085-UAM-Jar</string>
+    <string name="author_info">Jardel Moreno is a 21-year-old computer science student from Cape Verde, originally from Jean Piaget University but currently studying at the Autonomous University of Madrid.</string>
+    <string name="app_description">Cards lets you learn with study cards very efficiently by showing them to you immediately before you forget them.
+Study anything, wherever and whenever you want. Make good use of free time on bus trips, in supermarket queues, or in any other waiting situation.</string>
+    <string name="description">App Description</string>
+    <string name="about">About</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="decks_header">Decks</string>
+    <string name="max_number_cards">Maximum number of cards</string>
+
+    <string name="board_title">Show board</string>
+    <string name="email">Email</string>
+    <string name="loginBTN">LOGIN</string>
+    <string name="signupBTN">SIGN UP</string>
+    <string name="pass">Password</string>
+    <string name="board_summary_on">Board available</string>
+    <string name="board_summary_off">Board unavailable</string>
+    <string name="subTitle">Sign in or log in</string>
+    <string name="descriptionlogin" translatable="false">Firebase logo</string>
+    <string name="Title">Email and Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

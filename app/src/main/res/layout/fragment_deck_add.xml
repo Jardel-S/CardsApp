@@ -1,0 +1,76 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="deck"
+            type="projeto.cards.Deck" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="50dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/add_deck_title"
+            android:textColor="@color/purple_200"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/deck_name"
+            android:textColor="@color/purple_200"
+            android:textSize="20sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:hint="@string/deck_name_hint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/create_deck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/card_edit_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/cancel_button"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel_card_edit_button_title"
+                android:textColor="@color/design_default_color_error" />
+
+            <Button
+                android:id="@+id/ok_button"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/accept_card_edit_button_title"
+                android:textColor="@color/teal_700" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    </LinearLayout>
+
+</layout>

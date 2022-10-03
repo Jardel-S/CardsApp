@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863959412083",
+    "project_id": "jardelcards-ead44",
+    "storage_bucket": "jardelcards-ead44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863959412083:android:4835e60cfb07a3b7b2e906",
+        "android_client_info": {
+          "package_name": "projeto.cards"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863959412083-sa5ohfvmh6sguu2p7df96clcu63drn2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbYFv5UzxKdQT2TSbr-E7NDYLyWF_tWlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863959412083-sa5ohfvmh6sguu2p7df96clcu63drn2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
